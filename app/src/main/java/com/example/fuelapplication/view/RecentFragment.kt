@@ -13,7 +13,7 @@ class RecentFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_recent, container, false)
+        return inflater.inflate(R.layout.list_item, container, false)
     }
 
 }
